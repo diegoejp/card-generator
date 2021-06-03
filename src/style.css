@@ -1,1 +1,42 @@
 @import "~bootstrap/dist/css/bootstrap.min.css";
+p {
+  margin: 0;
+}
+.top {
+  font-size: 100px;
+}
+
+.number {
+  font-size: 140px;
+}
+
+.red {
+  color: red;
+}
+
+.rotar7 {
+  -webkit-transform: rotate(-180deg);
+  -moz-transform: rotate(-180deg);
+  -ms-transform: rotate(-180deg);
+  -o-transform: rotate(-180deg);
+  transform: rotate(-180deg);
+
+  -webkit-transform-origin: 50% 50%;
+  -moz-transform-origin: 50% 50%;
+  -ms-transform-origin: 50% 50%;
+  -o-transform-origin: 50% 50%;
+  transform-origin: 50% 50%;
+
+  /* font-size: 40px; */
+  /* position: relative; */
+  /* text-align: center; */
+  /* top: 100px; */
+}
+.bottom {
+  font-size: 100px;
+  /* margin-bottom: 2px; */
+}
+
+.cver {
+  margin: auto 0;
+}
